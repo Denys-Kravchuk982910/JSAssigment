@@ -226,7 +226,7 @@ users.map((user) => {
     userElement.classList.add('paragraph');
 
     userElement.addEventListener('click', () => {
-        alert(user.name);
+        alert('Hello, ' + user.name);
     });
 
     list.append(userElement);
